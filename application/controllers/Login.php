@@ -47,16 +47,15 @@ class Login extends CI_Controller {
 	}
 
 	public function proses_login() {
-      echo"<script>alert('Maaf Anda Gagal Login')</script>";
 		$cek=$this->M_Login->login();
 		if($cek==true){
 		  session_save_path();
 			$this->session->set_userdata('login',$cek);
       if(($cek[0]->pengaduan)!=1){
         echo"<script>alert('Maaf Anda Gagal Login')</script>";
-        redirect('login/logout');
+        redirect('Login/logout');
       }else {
-        redirect('Pc');
+        redirect('pc');
       }
 
 
