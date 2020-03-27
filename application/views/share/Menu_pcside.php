@@ -6,9 +6,11 @@
       <img class="hide-on-med-and-down" src="<?php echo site_url(); ?>assets/config/atrbpn.png" alt="materialize logo"/>
       <img class="show-on-medium-and-down hide-on-med-and-up" src="<?php echo site_url(); ?>assets/pc/images/logo/materialize-logo.png" alt="materialize logo"/>
       <span class="logo-text hide-on-med-and-down">Pengaduan</span>
+    </a>
   </div>
   <ul class="sidenav sidenav-collapsible leftside-navigation collapsible sidenav-fixed menu-shadow" id="slide-out" data-menu="menu-navigation" data-collapsible="menu-accordion">
-    <li class="navigation-header"><a class="navigation-header-text">Menu</a><i class="navigation-header-icon material-icons">more_horiz</i>
+    <li class="navigation-header">
+      <a class="navigation-header-text">Menu</a><i class="navigation-header-icon material-icons">more_horiz</i>
     </li>
     <li class="bold"><a class="waves-effect waves-cyan " href="<?php echo site_url(); ?>Pc"><i class="material-icons">mail_outline</i><span class="menu-title" data-i18n="Mail">Home</span></a>
     </li>

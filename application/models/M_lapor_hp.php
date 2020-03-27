@@ -75,8 +75,8 @@
               'tanggal_pengaduan'=>$tanggal,
               'jenis_pengaduan'=>$jenis_pengaduan,
               'penerima'=>"Belum Diterima",
-              'nama_bukti1'=>$ktp,
-              'nama_bukti2'=>$bukti1,
+              'ktp'=>$ktp,
+              'bukti1'=>$bukti1,
             );
           print_r($data);
           $cek=$this->db->insert('data_pengaduan',$data);
